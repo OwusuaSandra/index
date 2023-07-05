@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  
+   .Request-button{background-color: black;
+      color: white;
+      height: 34px;
+      cursor: pointer;
+      transition: opacity 1s;
+    
+     }
+     
+    .Request-button:hover{
+      opacity: 0.7;
+    }
+      .Cart-button{
+        background-color: rgb(255, 216, 20);
+        border-radius: 10px;
+        border:none;
+        height: 24;
+        transition: opacity 1s,background-color 1s;
+        
+      }
+
+      .Cart-button:hover{
+      background-color:paleturquoise;
+      opacity: 0.8;
+      }
+      
+     .Sign-button{background-color: rgb(46, 164, 79);
+      color: white;
+      height:26px ;
+      border-radius: 8px;
+      border-color: white;
+      font-weight: bold;
+      border: none;
+       }
+
+     .Sign-button:hover{
+      box-shadow:5px 5px 10px rgba(0 ,0 ,0 ,0.15);
+     }
+     
+     
+
+    .Get-button{
+      background-color: rgb(121, 82, 172);
+      color: white;
+      height: 30px;
+      border-radius: 4px;
+      font-weight: bold;
+      border: none;
+      width: 90px;
+      
+    }
+    
+      .Get-button:hover{
+        background-color:white;
+        color:rgb(121, 82, 172)
+
+      }
+
+    .Download-button{
+      background-color: rgb(108, 117, 125);
+      border-radius: 3px;
+      height: 30px;
+      margin: 2px;
+       border: none;
+    }
+
+    .Download-button:hover{
+      background-color: black;
+      color:rgb(108, 117, 125)
+    }
+    .Apply-button{
+       background-color: rgb(10, 102, 194);
+       color: white;
+       border-radius: 18px;
+       height: 30px;
+       border: none;
+       font-weight: bold;
+
+    }
+     .Apply-button:hover{
+      background-color:white ;
+      color:rgb(10, 102, 194) ;
+     }
+    .Save-button{
+      background-color: white;
+      color: rgb(10, 102, 194);
+      border-color: rgb(10, 102, 194);
+      border-radius: 15px;
+      border-style:solid;
+      width: 90px;
+      height: 35px;
+    }
+    .Save-button:hover{
+      border-width: 3px;
+    }
+  
+
+  </style>
+</head>
+<body>
+  <p>Uber</p>
+  <button class="Request-button">
+    Request now</button>
+  <p>Amazon</p>
+  <button class="Cart-button">Add to Cart</button>
+  <p>GitHub</p>
+   <button class="Sign-button">
+    Sign Up</button>
+    <p>Bootstrap</p>
+    <button class="Get-button">Get started</button>
+    <button class="Download-button">Download</button>
+    <p> LinkedIn</p>
+    <button class="Apply-button">
+      Apply on company website</button>
+      <button class="Save-button">Save</button>
+
+</body>
+</html>
